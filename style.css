@@ -96,6 +96,39 @@ h3 {
 }
 
 
+/* Part 3 Information */
+.information {
+    background-color: #ffffff;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    border: 2px solid blue;
+    border-width: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
 
 
 
