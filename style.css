@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', Consolas, 'Courier New', monospace;
 }
 
 
@@ -47,9 +48,10 @@ h3 {
 }
 
 .awesome p {
-    font-size: 40px;
+    font-size: 48px;
     color: #F9FAF8;
-    width: 250px;
+    font-weight: 900;
+    width: 400px;
     text-align: left;
     margin-left: 200px;
     margin-top: 10px;
@@ -57,8 +59,8 @@ h3 {
 }
 
 .description p {
-    font-size: 20px;
-    color: #90969b;
+    font-size: 18px;
+    color: #E5E7EB;
     margin-left: 200px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -66,13 +68,13 @@ h3 {
 }
 
 .img {
-    background-color: #6969699c;
+    background-color: rgba(211, 211, 211, 0.666);
     display: flex;
     font-size: 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: #e2e2e2;
+    color: #ffffff;
     height: 250px;
     width: 600px;
 }
@@ -155,7 +157,7 @@ h2 {
 
 /* Part 4 "Quote" Section */
 .quote {
-    background-color: gray;
+    background-color: #E5E7EB;
     height: 400px;
     width: auto;
     display: flex;
@@ -166,8 +168,11 @@ h2 {
 
 .quote-container {
     text-align: left;
-    font-size: 35px;
-    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #575f6c;
+    font-weight: 300;
+    font-style: italic;
     width: 800px;
 }
 
@@ -180,7 +185,8 @@ h2 {
 .author p {
     font-size: 20px;
     color: #1F2937;
-    margin-top: 0px;
+    font-weight: bold;
+    padding-top: 30px;
     margin-left: 600px;
 }
 
@@ -196,7 +202,7 @@ h2 {
 
 
 .box1 {
-    background-color: rgb(66, 107, 255);
+    background-color: #3882F6;
     height: 180px;
     width: 1200px;
     border: none;
@@ -208,7 +214,7 @@ h2 {
 
 
 .box2 {
-    background-color: rgb(94, 135, 255);
+    background-color: #3882F6;
     display: flex;
     align-items: left;
     justify-content: center;
@@ -243,7 +249,7 @@ h2 {
 }
 
 .button4 {
-    background-color: #548aff;
+    background-color: #3882F6;
     color: white;
     font-weight: bold;
     border: 2px solid white;
@@ -255,5 +261,5 @@ h2 {
 
 .footer{
     height: 120px;
-    background-color: navy;
+    background-color: #1F2937;
 }
