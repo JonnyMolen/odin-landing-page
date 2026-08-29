@@ -1,11 +1,10 @@
-* {
+/* * {
   outline: 2px solid red;
-}
+} */
 
 
 body {
-    background-color: white;
-
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -185,3 +184,76 @@ h2 {
     margin-left: 600px;
 }
 
+/* Part 5 "Call to action" Section */
+.box {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box1 {
+    background-color: rgb(66, 107, 255);
+    height: 180px;
+    width: 1200px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box2 {
+    background-color: rgb(94, 135, 255);
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+    width: 800px;
+    margin-left: 80px;
+}
+
+ 
+.call p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+    margin: 0px;
+}
+
+.sign p {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+
+.button3 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.button4 {
+    background-color: #548aff;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+} 
+
+.footer{
+    height: 120px;
+    background-color: navy;
+}
